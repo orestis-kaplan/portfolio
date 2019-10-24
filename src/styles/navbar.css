@@ -1,0 +1,78 @@
+.body{
+    letter-spacing: -1px;
+    font-family: Work Sans,Helvetica,Arial,sans-serif;
+    color: #5c5c5c;
+    font-size: 17px;
+    font-weight: bolder;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.profilePic{
+    background-image: url("../images/19325408.jpg");
+    background-size: cover;
+    width: 140px;
+    height: 140px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    margin-left: 12%;
+    margin-top: 20px;
+}
+.links{
+    width: 50%;
+    text-align: right;
+}
+.picwrapper{
+    width: 50%;
+}
+.header-container{
+    width: 90%;
+    margin-left: 7%;
+}
+.profileText{
+    margin: auto;
+    line-height: 48px;
+}
+.jobs{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50%;
+    border-top: 1px solid;
+}
+.current-job{
+    padding-right: 95px;
+}
+.description{
+    max-width: 688px;
+}
+.title-anchor{
+    color: #f4e751;
+    text-decoration: none;
+}
+.description .title-anchor{
+    color: #009364;
+}
+.description .title-anchor:hover{
+    color: #f4e751;
+}
+.job-application{
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.freelancer{
+    background-image: url('../images/freelancer.jpg');
+    display: block;
+    height: 61px;
+    background-size: cover;
+    background-position: center;
+}
+.ionian{
+    background-image: url('../images/microverse.png');
+    display: block;
+    height: 60px;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}

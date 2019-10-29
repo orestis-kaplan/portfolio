@@ -3,7 +3,8 @@ const projects = [
         id: 1,
         title: 'Facebook',
         description: 'An immitation of the original facebook',
-        image: 'facebook/a.png'
+        image: 'facebook/a.png',
+        link: 'https://nameless-mountain-22371.herokuapp.com/users/sign_in'
     },
     {
         id: 2,

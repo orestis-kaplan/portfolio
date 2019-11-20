@@ -1,6 +1,6 @@
 html,
 body,
-.container,#root {
+#root {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -21,9 +21,10 @@ body {
   user-select: none;
   cursor: default;
   color: #797979;
+  font-size: 17px;
 }
 
-.container {
+.wrapper {
   width: 100%;
   height: auto;
   margin: auto;
@@ -36,8 +37,9 @@ body {
 }
 
 .card {
-  width: 530px;
+  width: 76%;
   height: 382px;
+  margin: auto;
   background: grey;
   border-radius: 5px;
   background-size: cover;
@@ -71,9 +73,6 @@ body {
   width: 100%;
   color: black;
 }
-.WorkTitle{
-  margin-left: 7%;
-}
 .my-work{
   background: #f0f0f0;
   padding-top: 13px;
@@ -82,16 +81,29 @@ body {
 .card-wrapper{
   text-align: center;
   padding: 40px 0;
-  background-color: #f4e751;
-  margin: 1px 12px;
+  background-color: #5183f4;
 }
-.link-anchors{
+.link-anchorsOne{
+  padding-right: 15%;
+}
+.link-anchors,.link-anchorsOne{
   color: #797979;
   text-decoration: none;
+  font-size: 16px;
 }
-.link-anchors:hover{
+.link-anchors:hover,.link-anchorsOne:hover{
   color: #f4e751;
 }
 .project-description{
   font-weight: bold;
+  color: black;
+  margin-top: 23px;
+}
+
+@media only screen and (max-width: 425px){
+  .card{
+    width: auto;
+    height: 260px;
+    margin: 0 5%;
+  }
 }

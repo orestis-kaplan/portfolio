@@ -1,21 +1,24 @@
 import React from 'react';
 import Card from './Card'
-import projects from '../constants/projects'
+import cards from '../constants/projects'
 
 class CardList extends React.Component {
-    render(){
-        return (     
-            <div className="my-work">
-                <h2 className="WorkTitle" id="work">My Work</h2>
-                <div className="container">
-                    {projects.projects.map(project=>(
-                        <Card title={project.title}
-                        image={project.image}
-                        description={project.description}
-                        link={project.link}
-                        key={project.id}/>
+    render(){     
+        return (   
+            <div className="my-work">    
+                <div className="container">             
+                    <h2 id="work">My Work</h2>
+                </div>                
+                <div className="row">
+                    {cards.cards.map((card,index) =>(
+                        <Card title={card.title}
+                        image={card.image}
+                        description={card.description}
+                        project={cards.projects[index]}
+                        triggerRender={this.props.triggerRender}
+                        key={card.id}/>
                     ))}           
-                </div>
+                </div> 
             </div>
         );
     }

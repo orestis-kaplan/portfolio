@@ -56,14 +56,14 @@
     line-height: 1.5;
 }
 .title-anchor{
-    color: #f4e751;
+    color: #00b8ff;
     text-decoration: none;
 }
 .description .title-anchor{
     color: #009364;
 }
 .description .title-anchor:hover{
-    color: #f4e751;
+    color: #00b8ff;
 }
 .job-application{
     letter-spacing: 2px;

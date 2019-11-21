@@ -14,6 +14,7 @@ class CardList extends React.Component {
                         <Card title={card.title}
                         image={card.image}
                         description={card.description}
+                        build={card.build}
                         project={cards.projects[index]}
                         triggerRender={this.props.triggerRender}
                         key={card.id}/>

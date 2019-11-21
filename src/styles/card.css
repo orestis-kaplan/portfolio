@@ -37,6 +37,7 @@ body {
 }
 
 .card {
+  border: 8px solid rgb(19, 81, 133);
   width: 76%;
   height: 382px;
   margin: auto;
@@ -82,6 +83,10 @@ body {
   text-align: center;
   padding: 40px 0;
   background-color: #5183f4;
+  border-bottom: 1px solid #c9c9c9;
+}
+.card-wrapper:nth-child(2n+1){
+  border-right: 1px solid #c9c9c9;
 }
 .link-anchorsOne{
   padding-right: 15%;
@@ -92,14 +97,30 @@ body {
   font-size: 16px;
 }
 .link-anchors:hover,.link-anchorsOne:hover{
-  color: #f4e751;
+  color: #00b8ff;
 }
 .project-description{
   font-weight: bold;
-  color: black;
-  margin-top: 23px;
+  color: #ffffff;
+  margin: 18px 50px;
 }
-
+.build-with{
+  display: flex;
+  color: black;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.build-with div{
+  margin: 3px 17px;
+  padding: 6px;
+  background: 
+  linear-gradient(#fff,#fff) padding-box,
+  linear-gradient(to right, #f86666, #45f08b70) border-box;
+  color: #3d3d6c;
+  border: 3px solid transparent;
+  border-radius:15px;
+  display:inline-block;
+}
 @media only screen and (max-width: 425px){
   .card{
     width: auto;

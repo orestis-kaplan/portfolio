@@ -1,0 +1,36 @@
+.project-wrapper{
+    text-align: center;
+}
+.project-title{
+    color: black;
+    letter-spacing: 2px;
+    line-height: 2;
+}
+.screen-back{
+    padding: 40px;
+    background-color: #b1b7dd;
+    margin: 40px 14px;
+}
+.screen-one,.screen-two{
+    height: 514px;
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 5px 9px;
+}
+.repository{
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-between;
+}
+.repo-links{
+    color: #00b8ff;
+}
+@media only screen and (max-width: 767px){
+    .screen-one,.screen-two{
+        height: 140px;
+    }
+    .screen-back {
+        padding: 20px;
+    }
+}

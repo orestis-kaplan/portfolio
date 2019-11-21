@@ -134,14 +134,14 @@ const projects = [
         githubRepository: 'https://github.com/userman95/dribble-portfolio'
     },
     {
-        header: 'Bookstore',
-        title: 'Bookstore CMS is an app that allows users to add their own books there and read them. Like a digital library, it helps users manage their books, categorize them, and see what they last read(chapter) in a particular book.',
+        header: 'Digital Courses',
+        title: 'Digital Courses CMS is an app that allows users to add their courses there and study them. Like a digital library, it helps users manage their courses, categorize them, and see what they last read(chapter) in a particular course.',
         screenOne: 'bookstore/a.png',
-        firstDescription: 'Each book contain information such as : Title,Category,Percentage of completition,Chapter that the user is reading now',
+        firstDescription: 'Each course contain information such as : Title,Category,Percentage of completition,Chapter that the user is reading now',
         screenTwo: 'bookstore/b.png',
         secondDescription: {
             ulTitle: 'Optimization can include: ',
-            liOptions: ['Server-side data manipulation with Rails', 'Authentication','Book rating'] 
+            liOptions: ['Server-side data manipulation with Rails', 'Authentication','Course rating'] 
         },
         onlinePreview: 'https://bookstorefinal.herokuapp.com/',
         githubRepository: 'https://github.com/userman95/bookstore'

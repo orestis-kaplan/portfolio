@@ -6,7 +6,7 @@ const Header = () => {
             <div className="row">
                 <div className="col-lg-12">
                     <div className="profileText">
-                        <h1 className="description" >I'm Orestis Kaplanis, I am a <a className="title-anchor" href="https://github.com/userman95">full-stack developer</a> and a Computer scientist currently working as a freelancer</h1>
+                        <h1 className="description" >I'm Orestis Kaplanis, I am a <a className="title-anchor" href="https://github.com/userman95">full-stack developer</a> and a Computer scientist currently working as a freelancer.My passion is to help people make their ideas reality in the best way possible using React and Ruby on Rails</h1>
                     </div>
                 </div>
             </div>

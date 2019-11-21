@@ -41,8 +41,8 @@ const cards = [
     },
     {
         id: 6,
-        title: 'Bookstore',
-        description: 'A bookstore app',
+        title: 'Digital Courses',
+        description: 'Digital Courses CMS',
         image: 'bookstore/a.png',
         link: 'https://bookstorefinal.herokuapp.com/',
         build: ['React','Redux','HTML/CSS']

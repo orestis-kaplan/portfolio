@@ -2,14 +2,13 @@
     text-align: center;
 }
 .project-title{
-    color: black;
     letter-spacing: 2px;
     line-height: 2;
 }
 .screen-back{
     padding: 40px;
     background-color: #b1b7dd;
-    margin: 40px 14px;
+    margin: 40px 0;
 }
 .screen-one,.screen-two{
     height: 514px;

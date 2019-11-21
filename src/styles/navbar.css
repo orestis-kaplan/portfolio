@@ -51,7 +51,6 @@
     margin-top: 26px;
 }
 .description{
-    max-width: 688px;
     font-weight: 700;
     line-height: 1.5;
 }
@@ -84,4 +83,40 @@
     background-size: cover;
     background-position: center;
     background-color: black;
+}
+.header-social{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-social a:not(:first-child) {
+    display: block;
+    padding: 30px;
+    background-size: cover;
+    border-radius: 57px;
+    background-position: center;
+    background-color: #bbdfff;
+}
+.header-social a:hover{
+    background-color: #00b8ff4f;
+}
+.github-social{
+    background-image: url('../images/social/github.jpg');
+    display: block;
+    padding: 30px;
+    background-size: 142px;
+    border-radius: 57px;
+    background-position: center;
+    background-color: #bbdfff;
+}
+.linkedin-social{
+    background-image: url('../images/social/linkedin.png');
+}
+.twitter-social{
+    background-image: url('../images/social/twitter.png');
+}
+.gmail-social{
+    background-image: url('../images/social/gmail.png');
+}
+.app{
+    background-color: #000000ba;
 }

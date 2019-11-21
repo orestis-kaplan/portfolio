@@ -16,6 +16,7 @@ export default class App extends React.Component {
         this.triggerRender = this.triggerRender.bind(this);
     }
     triggerRender = (projectRender) => {
+        window.scrollTo(0,0);
         this.setState({
             renderComponent: !this.state.renderComponent,
             project: projectRender
@@ -23,7 +24,7 @@ export default class App extends React.Component {
     }
     render(){
         return(
-            <div>
+            <div className="app">
                 <div className="container">
                 <NavBar triggerRender={this.triggerRender} renderComponent={this.state.renderComponent}/>
                 {this.state.renderComponent ? <Header /> : <div></div>}

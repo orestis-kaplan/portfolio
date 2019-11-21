@@ -2,13 +2,15 @@ html,
 body,
 #root {
   width: 100%;
-  height: 100%;
+  height: auto;
   margin: 0;
   padding: 0;
   background-color: white;
   overflow-x: hidden;
 }
-
+#root{
+  background-image: url('../images/user.jpg');
+}
 body {
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu,
     roboto, noto, segoe ui, arial, sans-serif;
@@ -75,18 +77,13 @@ body {
   color: black;
 }
 .my-work{
-  background: #f0f0f0;
+  margin-top: 27px;
+  border-top: 1px solid;
   padding-top: 13px;
-  margin-top: 83px;
 }
 .card-wrapper{
   text-align: center;
   padding: 40px 0;
-  background-color: #5183f4;
-  border-bottom: 1px solid #c9c9c9;
-}
-.card-wrapper:nth-child(2n+1){
-  border-right: 1px solid #c9c9c9;
 }
 .link-anchorsOne{
   padding-right: 15%;
@@ -101,7 +98,6 @@ body {
 }
 .project-description{
   font-weight: bold;
-  color: #ffffff;
   margin: 18px 50px;
 }
 .build-with{
@@ -115,7 +111,7 @@ body {
   padding: 6px;
   background: 
   linear-gradient(#fff,#fff) padding-box,
-  linear-gradient(to right, #f86666, #45f08b70) border-box;
+  linear-gradient(to right, #fff, #2600df) border-box;
   color: #3d3d6c;
   border: 3px solid transparent;
   border-radius:15px;

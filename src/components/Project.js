@@ -9,7 +9,7 @@ class Project extends React.Component {
                 <div className="row">
                     <div className="col-lg-3 col-md-3"></div>
                     <div className="col-lg-6 col-md-6 project-wrapper">
-                        <h1 style={{fontSize: "3.5rem"}}>{project.header}</h1>
+                        <h1 id="project-name" style={{fontSize: "3.5rem"}}>{project.header}</h1>
                         <h3 className="project-title">{project.title}</h3>                    
                     </div>
                     <div className="col-lg-3 col-md-3"></div>

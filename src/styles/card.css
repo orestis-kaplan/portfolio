@@ -66,10 +66,10 @@ body {
   display: flex;
   align-items: baseline;
   text-align: center;
-  background: #ffffffad;
+  background: transparent;
 }
 .card-opacity:hover{
-  background: transparent;
+  background: #ffffffad;
 }
 .card-title{
   width: 100%;

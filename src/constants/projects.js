@@ -2,7 +2,7 @@ const cards = [
     {
         id: 1,
         title: 'ConnectBook',
-        description: 'An immitation of the original facebook',
+        description: 'An imitation of the original facebook',
         image: 'facebook/a.png',
         link: 'https://nameless-mountain-22371.herokuapp.com/users/sign_in',
         build: ['Rails','Javascript','HTML/CSS','AJAX','PostgreSQL']
@@ -70,9 +70,9 @@ const tabs = [
 const projects = [
     {
         header: 'ConnectBook',
-        title: 'Reduce the distance between you and your friends, search them talk to them show them what you do!',
+        title: 'Reduce the distance between you and your friends, search for them, talk to them, show them what you do!',
         screenOne: 'facebook/screenOne.png',
-        firstDescription: 'ConnectBook is an app that let the user to search and make friends. They can make posts that contain text and photos, edit their profile by adding profile and wallpaper pictures.',
+        firstDescription: 'ConnectBook is an app that lets the user search and make friends. They can make posts that contain text and photos, edit their profile by adding profile and wallpaper pictures.',
         screenTwo: 'facebook/screenTwo.png',
         secondDescription: {
             ulTitle: 'Optimization can include: ',
@@ -85,7 +85,7 @@ const projects = [
         header: 'Weather App',
         title: 'Search for the weather and climate characteristics in any city in the world!',
         screenOne: 'weather/a.png',
-        firstDescription: 'This weather app communicates with openWeather API and get data such as: Climate description,Temperature,Humidity,Wind speed for any city in the world.Go to the search bar enter the desired city and just press enter.You can switch temperature in Celcius,Kelvin and Fahrenheit from the circle next to the search bar.',
+        firstDescription: 'This weather app communicates with openWeather API and get data such as: Climate, Temperature, Humidity, Wind speed description for any city in the world. Go to the search bar enter the desired city and just press enter.You can switch temperature in Celcius,Kelvin and Fahrenheit from the circle next to the search bar.',
         screenTwo: 'weather/b.png',
         secondDescription: {
             ulTitle: 'Optimization can include: ',
@@ -98,7 +98,7 @@ const projects = [
         header: 'Quality Paths',
         title: 'Create the best possible paths to take as a multiple role user, expand the network, rate the world!',
         screenOne: 'quality/a.png',
-        firstDescription: 'The user creates a path in the circle in his map and rates any path he creates. He can see the distance (in meters) of all paths he has created till now and also delete any path he wants. Then, he submits the total data into the database and his results come into a leaderboard that shows the overall rating in meters. In the leaderboard there can be seen the user with the most rated paths together with the metered results.All these results can come in handy for all users who are not familiar with a specific place-region. A future development can have the database to gather collections of ratings and guide the best path for the user to use through these. At the end of the day, users build their own network of paths to help all other users and scale the app by themselves!',
+        firstDescription: 'The user creates a path in the circle in his/her map and rates any path he/she creates. The user can see the distance (in meters) of all paths he has created till now and also delete any path he/she wants. Then, the user submits the total data into the database and his/her results come into a leaderboard that shows the overall rating in meters. In the leaderboard there can be seen the user with the most rated paths together with the metered results.All these results can come in handy for all users who are not familiar with a specific place-region. A future development can have the database to gather collections of ratings and guide the best path for the user to use through these. At the end of the day, users build their own network of paths to help all other users and scale the app by themselves!',
         screenTwo: 'quality/c.png',
         secondDescription: {
             ulTitle: 'Optimization can include: ',
@@ -111,7 +111,7 @@ const projects = [
         header: 'The Todo List',
         title: 'This app is about a todo-list that allows users to set priorities for different tasks. In our everyday lives we often want to categorize and prioritize out daily responsibilities. That being said, the user can create a project (container of responsibilities) that contains its own todos',
         screenOne: 'todo/a.png',
-        firstDescription: 'Each todo has the following fields: Priority,Title,Description,Due Date,Completed.A todo can be added, removed and edited',
+        firstDescription: 'Each todo has the following fields: Priority, Title, Description, Due Date, Completed. A todo can be added, removed and edited',
         screenTwo: 'todo/b.png',
         secondDescription: {
             ulTitle: 'Optimization can include: ',
@@ -122,9 +122,9 @@ const projects = [
     },
     {
         header: 'Roomie',
-        title: 'This is a realization of a Dribble Website Design. The site supports all devices',
+        title: 'This is a realization of a Dribbble Website Design. The site supports all devices',
         screenOne: 'dribble/dribble.png',
-        firstDescription: 'This represents skill both of bootstrap grid system and CSS3 flexbox ',
+        firstDescription: 'This represents skills both in bootstrap grid systems and CSS3 flexbox.',
         screenTwo: 'dribble/Screenshot.png',
         secondDescription: {
             ulTitle: 'Optimization can include: ',
@@ -137,7 +137,7 @@ const projects = [
         header: 'Digital Courses',
         title: 'Digital Courses CMS is an app that allows users to add their courses there and study them. Like a digital library, it helps users manage their courses, categorize them, and see what they last read(chapter) in a particular course.',
         screenOne: 'bookstore/a.png',
-        firstDescription: 'Each course contain information such as : Title,Category,Percentage of completition,Chapter that the user is reading now',
+        firstDescription: 'Each course contain information such as : Title, Category, Percentage of completition, Chapter that the user is reading now',
         screenTwo: 'bookstore/b.png',
         secondDescription: {
             ulTitle: 'Optimization can include: ',

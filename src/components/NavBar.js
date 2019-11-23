@@ -4,8 +4,8 @@ import '../styles/navbar.css'
 const NavBar = ({renderComponent,triggerRender}) => {
     return(
         <div className="row">
-            <div className="col-lg-2"></div>
-            <div className="col-lg-8">
+            <div className="col-lg-1"></div>
+            <div className="col-lg-9">
                 <div className="navbarWrapper">
                     <div className="picwrapper" id="pic">
                         <div className="profilePic" ></div>
@@ -34,7 +34,7 @@ const NavBar = ({renderComponent,triggerRender}) => {
                     </div>
                 </div>
             </div>
-            <div className="col-lg-2"></div>
+            <div className="col-lg-3"></div>
         </div>
         
     );

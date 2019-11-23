@@ -12,8 +12,6 @@ body,
   background-image: url('../images/user.jpg');
 }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu,
-    roboto, noto, segoe ui, arial, sans-serif;
   background: transparent;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -22,7 +20,7 @@ body {
   -ms-user-select: none;
   user-select: none;
   cursor: default;
-  color: #797979;
+  color: #d1d1d1;
   font-size: 17px;
 }
 
@@ -66,19 +64,23 @@ body {
   left: 0;
   bottom: 0;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   text-align: center;
+  background: #ffffffad;
 }
 .card-opacity:hover{
-  background: #ffffffad;
+  background: transparent;
 }
 .card-title{
   width: 100%;
-  color: black;
+  color: white;
+  background-color: #125185;
+  padding-bottom: 5px;
+  top: -2px;
+  position: absolute;
 }
 .my-work{
   margin-top: 27px;
-  border-top: 1px solid;
   padding-top: 13px;
 }
 .card-wrapper{

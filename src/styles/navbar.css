@@ -1,7 +1,7 @@
 .body{
     letter-spacing: -1px;
-    font-family: Work Sans,Helvetica,Arial,sans-serif;
-    color: #5c5c5c;
+    font-family: 'Nanum Gothic Coding', monospace;
+    color: #c9c9c9;
     font-size: 17px;
     font-weight: bolder;
 }
@@ -51,7 +51,7 @@
     margin-top: 26px;
 }
 .description{
-    font-weight: 700;
+    font-family: 'Nanum Gothic Coding', monospace;
     line-height: 1.5;
 }
 .title-anchor{
@@ -69,44 +69,56 @@
     font-weight: 100;
     font-size: unset;
 }
+.previous-jobs{
+    text-align: center;
+}
 .freelancer{
     background-image: url('../images/freelancer.jpg');
     display: block;
-    height: 61px;
-    background-size: cover;
+    padding: 35px;
+    width: 133px;
+    margin-top: 26px;
+    background-size: 142px;
+    background-repeat: no-repeat;
     background-position: center;
 }
 .ionian{
     background-image: url('../images/ionio-logo.jpg');
     display: block;
-    height: 108px;
-    background-size: cover;
+    padding: 47px;
+    background-size: 87px;
+    background-repeat: no-repeat;
     background-position: center;
-    background-color: black;
+}
+.microverse{
+    background-image: url('../images/microverse.png');
+    display: block;
+    padding: 59px;
+    background-size: 95px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.prev-icons{
+    display: flex;
 }
 .header-social{
     display: flex;
     justify-content: space-evenly;
+    margin: 36px 0 18px 0;
 }
-.header-social a:not(:first-child) {
+.header-social a {
     display: block;
     padding: 30px;
-    background-size: cover;
+    background-size: 40px;
+    background-repeat: no-repeat;
     border-radius: 57px;
     background-position: center;
-    background-color: #bbdfff;
 }
 .header-social a:hover{
     background-color: #00b8ff4f;
 }
 .github-social{
     background-image: url('../images/social/github.jpg');
-    display: block;
-    padding: 30px;
-    background-size: 142px;
-    border-radius: 57px;
-    background-position: center;
-    background-color: #bbdfff;
 }
 .linkedin-social{
     background-image: url('../images/social/linkedin.png');
@@ -119,4 +131,9 @@
 }
 .app{
     background-color: #000000ba;
+}
+#work{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 100;
 }

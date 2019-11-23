@@ -7,7 +7,7 @@ class CardList extends React.Component {
         return (   
             <div className="my-work">    
                 <div className="container">             
-                    <h2 id="work">My Work</h2>
+                    <h2 id="work">MY WORK</h2>
                 </div>                
                 <div className="row">
                     {cards.cards.map((card,index) =>(

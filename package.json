@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://orestiskaplanis.me/"
+  "homepage": "https://orestiskaplanis.me/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
